@@ -1,6 +1,6 @@
 package com.softwarica.clothshop.BLL;
 
-import com.softwarica.ServerResponse.RegisterResponse;
+import com.softwarica.clothshop.ServerResponse.RegisterResponse;
 import com.softwarica.clothshop.API.UsersAPI;
 import com.softwarica.clothshop.URL.URL;
 
@@ -8,7 +8,6 @@ import java.io.IOException;
 
 import retrofit2.Call;
 import retrofit2.Response;
-import retrofit2.http.Url;
 
 public class LoginBLL {
     boolean isSuccess=false;

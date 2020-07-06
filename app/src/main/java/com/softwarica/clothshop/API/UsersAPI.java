@@ -1,7 +1,7 @@
 package com.softwarica.clothshop.API;
 
-import com.softwarica.ServerResponse.ImageResponse;
-import com.softwarica.ServerResponse.RegisterResponse;
+import com.softwarica.clothshop.ServerResponse.ImageResponse;
+import com.softwarica.clothshop.ServerResponse.RegisterResponse;
 import com.softwarica.clothshop.Model.User;
 
 import okhttp3.MultipartBody;

@@ -1,4 +1,4 @@
-package com.softwarica.ServerResponse;
+package com.softwarica.clothshop.ServerResponse;
 
 public class ImageResponse {
     private String filename;
