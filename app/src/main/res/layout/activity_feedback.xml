@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.cl">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write a message"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top|left"
+        android:hint="Write a message"
+        android:inputType="textMultiLine"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:lines="6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:scrollHorizontally="false" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="#FFC107"
+        />
+
+
+</LinearLayout>
